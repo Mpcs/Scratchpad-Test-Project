@@ -1,0 +1,9 @@
+[Node name=RootObject parent=]
+[Model3DNode script=Box.java name=Model1 parent=RootObject]
+| relativePosition=(0.0,-3.0,-5.0)
+| mesh3D=models/Cube_Prototype_Large_A.obj
+| texture=textures/prototypebits_texture.png
+[Model3DNode name=Model2 parent=RootObject]
+| relativePosition=(2.0,5.0,-15.0)
+| mesh3D=models/Cube_Prototype_Large_A.obj
+| texture=textures/prototypebits_texture.png
